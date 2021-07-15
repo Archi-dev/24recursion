@@ -11,12 +11,13 @@ function reverse(result) {
     let num2 = Number(arr.join(''));
     return num2;
 }
-// Функция с использованием рекурсии
+// Функция для проверки на палиндром
 function checkNumber(result) {
 
     return result === result.split("").reverse().join("") ? true : false;
 }
 let step = 0;
+// Функция с использованием рекурсии
 function paledrom(result, reverse) {
     let obj = {
         result,
